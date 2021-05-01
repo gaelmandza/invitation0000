@@ -1,0 +1,75 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+.addguest{
+    text-align: center;
+    text-decoration:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.addguest h1{
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+}
+.textbox{
+    padding:5px;
+}
+#submit{
+    padding: 10px;
+    background-color: rgb(214, 186, 26);
+    color:black;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.guestboxinfos{
+    background-color:rgb(241, 211, 35);
+    color: black;
+    margin: 100px;
+    text-align: center;
+   
+    
+    border-radius: 20px;
+    border-bottom: black;
+    
+}
+input.urlbox{
+    border: none;
+    color: blue;
+}
+input.inputbox{
+    padding: 10px;
+  
+    margin: 5px;
+    
+}
+
+.container h1{
+    text-align: center;
+}
+.addguest-button{
+    padding: 10px;
+    border: none;
+    color: rgb(27, 27, 27);
+    background-color: rgb(224, 198, 50);
+   
+    
+}
+.guestboxinfos p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+@media screen and (max-width: 430px) {
+    input.inputbox{
+        padding: 5px;
+      width: 100px;
+        margin: 5px;
+        
+  }
+}

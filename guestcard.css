@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("goldback.jpg");
+}
+.card{
+    background-color: rgb(46, 46, 46);
+    width:90%;
+    height: 85vh;
+    display: flex;
+    transform: translate(5%,10%);
+    position: relative;
+}
+.img{
+    width: 75%;
+    
+}
+.img img{
+    width: 50%;
+    
+    margin-left: 25%;
+    
+    
+}
+
+.txtandimg{
+    position: fixed;
+}
+.text{
+    background-color: rgb(26, 26, 26);
+    width: 200px;
+    height: 370px;
+     
+    position: absolute;
+     
+    right: 0;
+       color: white;
+   
+       
+}
+.text p {
+    margin: 5px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.infos{
+    background-color: rgb(22, 22, 22);
+    bottom: 0px;
+   
+    width: 100%;
+    padding-top: 350px;
+}
+
+
+@media  screen and (min-width:600px) {
+    
+}

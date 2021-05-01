@@ -1,0 +1,84 @@
+body{
+    background-image: url("goldback.jpg");
+    margin: 10px;
+    padding: 5%;
+}
+.container{
+    background-color: rgb(20, 20, 20);
+    animation: cardanimation 3s;
+  box-shadow: 10px 10px 10px rgba(12, 12, 12, 0.651);
+
+  
+}
+.container h1{
+    text-align: center;
+    color: rgb(214, 188, 39);
+    background-color: rgb(34, 34, 34);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Teko', sans-serif;
+    animation: h1animation 2s;
+}
+.container p{
+    color: rgb(233, 218, 132);
+    font-family: 'Contrail One', cursive;
+    animation: txtanimation 5s;
+}
+.infos{
+    background-color: rgb(34, 34, 34);
+    animation: infosanimation 5s;
+}
+.infos label{
+    color: rgb(230, 202, 44);
+    font-weight: 600;
+}
+.infos-label-a{
+   color: rgb(250, 204, 135);
+   text-decoration: none;
+}
+
+
+@keyframes h1animation {
+    0%{
+        transform: translate(10) rotateX(10);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0) rotateX(0);
+        opacity: 1;
+    }
+    
+}
+@keyframes infosanimation {
+    0%{
+        transform: translate(10) rotateX(10);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0) rotateX(0);
+        opacity: 1;
+    }
+    
+}
+@keyframes txtanimation {
+    0%{
+        transform: translate(10) rotateX(10);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0) rotateX(0);
+        opacity: 1;
+    }
+    
+}
+@keyframes cardanimation {
+    0%{
+        transform: translate(0) scale(0) rotateX(0);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(10) scale(0) rotateX(0);
+        opacity: 1;
+    }
+    
+}
